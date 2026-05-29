@@ -18,6 +18,7 @@ RailNav AI is a multi-platform indoor navigation solution designed to help passe
 The solution can be accessed through a mobile application, railway digital kiosks, and integration with existing railway applications such as RailMadad and IRCTC.
 
 ## Proposed Solution / Architecture Diagram
+<img width="453" height="657" alt="image" src="https://github.com/user-attachments/assets/4778daf7-8c97-401c-9aa8-68d760877b10" />
 
 
 ## Use Cases
@@ -38,54 +39,54 @@ Update station maps and facility information.
 Monitor passenger movement and congestion hotspots.
 
 ## Technology Stack
-# Frontend
+### Frontend
 Flutter (Mobile Application)
 React.js (Web Dashboard)
 Touch UI for Kiosks
-# Backend
+### Backend
 Django / Node.js
 REST APIs
-# Database
+### Database
 PostgreSQL
 Firebase Realtime Database
-# Navigation & Mapping
+### Navigation & Mapping
 Mapbox
 OpenStreetMap
 Dijkstra's Algorithm
 A* Pathfinding Algorithm
-# AI & Accessibility
+### AI & Accessibility
 Speech-to-Text
 Text-to-Speech
 AI Chat Assistant
-# Infrastructure
+### Infrastructure
 Docker
 AWS / Azure Cloud
 Nginx
 
 ## Dependencies
-# Frontend Dependencies
+### Frontend Dependencies
 flutter
 provider
 google_maps_flutter
 flutter_tts
 speech_to_text
 http
-# Backend Dependencies
+### Backend Dependencies
 django
 djangorestframework
 psycopg2
 firebase-admin
 numpy
 networkx
-# Database
+### Database
 PostgreSQL
 Firebase Realtime Database
-# Additional Services
+### Additional Services
 BLE Beacon SDK
 Mapbox SDK
 Google Text-to-Speech API
 OpenStreetMap APIs
-# Hardware Requirements
+### Hardware Requirements
 Digital Touchscreen Kiosks
 BLE Beacons
 Station Information Displays
